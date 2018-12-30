@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name></display-name>
+
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+
+
+	<context-param>
+		<param-name>author</param-name>
+		<param-value>kevin</param-value>
+	</context-param>
+	<context-param>
+		<param-name>bookName</param-name>
+		<param-value>JSP 與 Servlet 600 個活用範例大全</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>Sample012</servlet-name>
+		<servlet-class>servlet.Sample012</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample013</servlet-name>
+		<servlet-class>servlet.Sample013</servlet-class>
+		<init-param>
+			<param-name>listings</param-name>
+			<param-value>false</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample014</servlet-name>
+		<servlet-class>servlet.Sample014</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample015</servlet-name>
+		<servlet-class>servlet.Sample015</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample025</servlet-name>
+		<servlet-class>servlet.Sample025</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample026</servlet-name>
+		<servlet-class>servlet.Sample026</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample027</servlet-name>
+		<servlet-class>servlet.Sample027</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample028</servlet-name>
+		<servlet-class>servlet.Sample028</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample030</servlet-name>
+		<servlet-class>servlet.Sample030</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample053</servlet-name>
+		<servlet-class>servlet.Sample053</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample054</servlet-name>
+		<servlet-class>servlet.Sample054</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample055</servlet-name>
+		<servlet-class>servlet.Sample055</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample057</servlet-name>
+		<servlet-class>servlet.Sample057</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample058</servlet-name>
+		<servlet-class>servlet.Sample058</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample059</servlet-name>
+		<servlet-class>servlet.Sample059</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample060</servlet-name>
+		<servlet-class>servlet.Sample060</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample061</servlet-name>
+		<servlet-class>servlet.Sample061</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample061Forbidden</servlet-name>
+		<servlet-class>servlet.Sample061Forbidden</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample063</servlet-name>
+		<servlet-class>servlet.Sample063</servlet-class>
+		<init-param>
+			<param-name>date</param-name>
+			<param-value>2011/05/25</param-value>
+		</init-param>
+		<init-param>
+			<param-name>version</param-name>
+			<param-value>1.0</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample064</servlet-name>
+		<servlet-class>servlet.Sample064</servlet-class>
+		<init-param>
+			<param-name>v1</param-name>
+			<param-value>10</param-value>
+		</init-param>
+		<init-param>
+			<param-name>v2</param-name>
+			<param-value>20</param-value>
+		</init-param>
+		<init-param>
+			<param-name>v3</param-name>
+			<param-value>30</param-value>
+		</init-param>
+	</servlet>
+  <servlet>
+    <servlet-name>Sample065</servlet-name>
+    <servlet-class>servlet.Sample065</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample066</servlet-name>
+    <servlet-class>servlet.Sample066</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample066Reader</servlet-name>
+    <servlet-class>servlet.Sample066Reader</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample067</servlet-name>
+    <servlet-class>servlet.Sample067</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample071</servlet-name>
+    <servlet-class>servlet.Sample071</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample072</servlet-name>
+    <servlet-class>servlet.Sample072</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Sample012</servlet-name>
+		<url-pattern>/servlet/Sample012</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample013</servlet-name>
+		<url-pattern>/servlet/Sample013</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample014</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample015</servlet-name>
+		<url-pattern>/servlet/Sample015</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample025</servlet-name>
+		<url-pattern>/servlet/Sample025</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample026</servlet-name>
+		<url-pattern>/servlet/Sample026</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample027</servlet-name>
+		<url-pattern>/servlet/Sample027</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample028</servlet-name>
+		<url-pattern>/servlet/Sample028</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample030</servlet-name>
+		<url-pattern>/servlet/Sample030</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample053</servlet-name>
+		<url-pattern>/servlet/Sample053</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample054</servlet-name>
+		<url-pattern>/servlet/Sample054</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample055</servlet-name>
+		<url-pattern>/servlet/Sample055</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample057</servlet-name>
+		<url-pattern>/servlet/Sample057</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample058</servlet-name>
+		<url-pattern>/servlet/Sample058</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample059</servlet-name>
+		<url-pattern>/servlet/Sample059</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample060</servlet-name>
+		<url-pattern>/servlet/Sample060</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample061</servlet-name>
+		<url-pattern>/servlet/Sample061</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample061Forbidden</servlet-name>
+		<url-pattern>/servlet/Sample061Forbidden</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample063</servlet-name>
+		<url-pattern>/servlet/Sample063</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample064</servlet-name>
+		<url-pattern>/servlet/Sample064</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample065</servlet-name>
+    <url-pattern>/servlet/Sample065</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample066</servlet-name>
+    <url-pattern>/servlet/Sample066</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample066Reader</servlet-name>
+    <url-pattern>/servlet/Sample066Reader</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample067</servlet-name>
+    <url-pattern>/servlet/Sample067</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample071</servlet-name>
+    <url-pattern>/servlet/Sample071</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample072</servlet-name>
+    <url-pattern>/servlet/Sample072</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+	<filter>
+		<filter-name>Sample057filter</filter-name>
+		<filter-class>servlet.Sample057MessageFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Sample057filter</filter-name>
+		<url-pattern>/servlet/Sample057</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>Sample058filter</filter-name>
+		<filter-class>servlet.Sample058MessageFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Sample058filter</filter-name>
+		<url-pattern>/servlet/Sample058</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>Sample059filter</filter-name>
+		<filter-class>servlet.Sample059MessageFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Sample059filter</filter-name>
+		<url-pattern>/servlet/Sample059</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>Sample060filter1</filter-name>
+		<filter-class>servlet.Sample060MessageFilter1</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Sample060filter1</filter-name>
+		<url-pattern>/servlet/Sample060</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>Sample060filter2</filter-name>
+		<filter-class>servlet.Sample060MessageFilter2</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Sample060filter2</filter-name>
+		<url-pattern>/servlet/Sample060</url-pattern>
+	</filter-mapping>
+
+
+	<filter>
+		<filter-name>Sample061filter</filter-name>
+		<filter-class>servlet.Sample061IPFilter</filter-class>
+		<init-param>
+			<param-name>permission</param-name>
+			<param-value>127.0.0.1</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>Sample061filter</filter-name>
+		<url-pattern>/servlet/Sample061</url-pattern>
+	</filter-mapping>
+
+
+
+
+
+
+</web-app>

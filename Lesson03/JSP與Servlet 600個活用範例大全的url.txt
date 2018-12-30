@@ -1,0 +1,144 @@
+【第一章】
+  http://3w.eztravel.com.tw:8080/Lesson01/servlet/Sample010
+
+  
+  
+  
+【第二章】
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample012 
+  
+  SingleThreadModel 應用: 
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample053
+  
+  synchronized
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample054
+  
+  synchronized(this)
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample055
+    
+  Filter 應用
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample057
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample058
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample059
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample060 (多個Filter)
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample061 (IP Filter)
+  
+  
+  讀取Servlet 的初始值
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample063
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample064
+  
+  讀取Web 應用程式的初始值
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample065
+  
+  在 Servlet 之前共享資料
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample066
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample066Reader   
+  
+  cookie
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample067
+  
+  取得使用者端的瀏覽器資訊、語言資訊
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample071
+  
+  查詢連結來源
+  http://3w.eztravel.com.tw/sample072.html
+  http://3w.eztravel.com.tw:8080/Lesson02/servlet/Sample072
+  
+  
+  
+  
+
+
+【第三章】
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample077
+  
+  週期性呼叫
+  http://3w.eztravel.com.tw:8080/Lesson03/sample081.jsp
+  
+  
+  設定瀏覽器輸出HTTP的錯誤碼
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample083  
+  
+  
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample084?firstName=洪&lastName=嘉宏
+  
+  http://3w.eztravel.com.tw:8080/Lesson03/sample085.jsp
+  http://3w.eztravel.com.tw:8080/Lesson03/sample086.jsp
+  http://3w.eztravel.com.tw:8080/Lesson03/sample092.jsp
+  
+  
+  密碼認證(Tomcat 功能)
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample101
+  
+  
+  檔案相關
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample106
+  
+  建立檔案(及暫存)
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample110
+  
+  更名
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample111
+  
+  刪除檔案(含目錄)
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample112
+  
+  建立目錄
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample114 
+  
+  檔案列表
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample116
+  
+  讀取檔案內容
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample117
+  
+  寫入檔案內容
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample118
+  
+  讀取cvs 檔
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample120
+  
+  讀取資源檔 (URL)
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample121
+  
+  讀取多個資源檔 (URL)
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample122
+  
+  讀取多個檔案
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample123
+  
+  建立隨機存取檔案
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample124
+  
+  讀取隨機存取檔案
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample125
+  
+  顯示ZIP檔案的內容
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample126
+  
+  顯示ZIP檔案的內容
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample127
+  
+  將字串寫入ZIP檔案
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample128  
+  
+  將檔案壓縮到ZIP 檔案
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample129   
+  
+  陣列排序
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample136
+  
+  取代字串
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample146  
+  
+  GregorianCalendar
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample150  
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample151
+  http://3w.eztravel.com.tw:8080/Lesson03/servlet/Sample152
+  
+    
+  
+  
+  
+  

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+
+	<display-name></display-name>
+
+
+
+
+	<!-- sample101 密碼認證(Tomcat 功能)(START) -->
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>sample constraint</web-resource-name>
+			<url-pattern>/servlet/Sample101</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>member</role-name>
+			<role-name>general</role-name>
+		</auth-constraint>
+	</security-constraint>
+	<login-config>
+		<!-- 密碼認證(Tomcat 功能) -->
+		<!-- <auth-method>FORM</auth-method> -->
+		<!-- 密碼認證(Tomcat + HTTP認證) -->
+		<auth-method>BASIC</auth-method>
+		<realm-name>sample constraint</realm-name>
+		<form-login-config>
+			<form-login-page>/sample101.jsp</form-login-page>
+			<form-error-page>/sample101Fail.jsp</form-error-page>
+		</form-login-config>
+	</login-config>
+	<security-role>
+		<role-name>member</role-name>
+	</security-role>
+	<security-role>
+		<role-name>general</role-name>
+	</security-role>
+	<!-- sample101 密碼認證(Tomcat 功能)(END) -->
+	<servlet>
+		<servlet-name>Sample077</servlet-name>
+		<servlet-class>servlet.Sample077</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample083</servlet-name>
+		<servlet-class>servlet.Sample083</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample084</servlet-name>
+		<servlet-class>servlet.Sample084</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample085</servlet-name>
+		<servlet-class>servlet.Sample085</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample086</servlet-name>
+		<servlet-class>servlet.Sample086</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample092</servlet-name>
+		<servlet-class>servlet.Sample092</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sample101</servlet-name>
+		<servlet-class>servlet.Sample101</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>Sample106</servlet-name>
+    <servlet-class>servlet.Sample106</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample110</servlet-name>
+    <servlet-class>servlet.Sample110</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample111</servlet-name>
+    <servlet-class>servlet.Sample111</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample112</servlet-name>
+    <servlet-class>servlet.Sample112</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample114</servlet-name>
+    <servlet-class>servlet.Sample114</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample116</servlet-name>
+    <servlet-class>servlet.Sample116</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample117</servlet-name>
+    <servlet-class>servlet.Sample117</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample118</servlet-name>
+    <servlet-class>servlet.Sample118</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample120</servlet-name>
+    <servlet-class>servlet.Sample120</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample121</servlet-name>
+    <servlet-class>servlet.Sample121</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample122</servlet-name>
+    <servlet-class>servlet.Sample122</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample123</servlet-name>
+    <servlet-class>servlet.Sample123</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample124</servlet-name>
+    <servlet-class>servlet.Sample124</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample125</servlet-name>
+    <servlet-class>servlet.Sample125</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample126</servlet-name>
+    <servlet-class>servlet.Sample126</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample127</servlet-name>
+    <servlet-class>servlet.Sample127</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample128</servlet-name>
+    <servlet-class>servlet.Sample128</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample129</servlet-name>
+    <servlet-class>servlet.Sample129</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample131</servlet-name>
+    <servlet-class>servlet.Sample131</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample132</servlet-name>
+    <servlet-class>servlet.Sample132</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample133</servlet-name>
+    <servlet-class>servlet.Sample133</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample136</servlet-name>
+    <servlet-class>servlet.Sample136</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample146</servlet-name>
+    <servlet-class>servlet.Sample146</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample150</servlet-name>
+    <servlet-class>servlet.Sample150</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample151</servlet-name>
+    <servlet-class>servlet.Sample151</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sample152</servlet-name>
+    <servlet-class>servlet.Sample152</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Sample077</servlet-name>
+		<url-pattern>/servlet/Sample077</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample083</servlet-name>
+		<url-pattern>/servlet/Sample083</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample084</servlet-name>
+		<url-pattern>/servlet/Sample084</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample085</servlet-name>
+		<url-pattern>/servlet/Sample085</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample086</servlet-name>
+		<url-pattern>/servlet/Sample086</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample092</servlet-name>
+		<url-pattern>/servlet/Sample092</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sample101</servlet-name>
+		<url-pattern>/servlet/Sample101</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample106</servlet-name>
+    <url-pattern>/servlet/Sample106</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample110</servlet-name>
+    <url-pattern>/servlet/Sample110</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample111</servlet-name>
+    <url-pattern>/servlet/Sample111</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample112</servlet-name>
+    <url-pattern>/servlet/Sample112</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample114</servlet-name>
+    <url-pattern>/servlet/Sample114</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample116</servlet-name>
+    <url-pattern>/servlet/Sample116</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample117</servlet-name>
+    <url-pattern>/servlet/Sample117</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample118</servlet-name>
+    <url-pattern>/servlet/Sample118</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample120</servlet-name>
+    <url-pattern>/servlet/Sample120</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample121</servlet-name>
+    <url-pattern>/servlet/Sample121</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample122</servlet-name>
+    <url-pattern>/servlet/Sample122</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample123</servlet-name>
+    <url-pattern>/servlet/Sample123</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample124</servlet-name>
+    <url-pattern>/servlet/Sample124</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample125</servlet-name>
+    <url-pattern>/servlet/Sample125</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample126</servlet-name>
+    <url-pattern>/servlet/Sample126</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample127</servlet-name>
+    <url-pattern>/servlet/Sample127</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample128</servlet-name>
+    <url-pattern>/servlet/Sample128</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample129</servlet-name>
+    <url-pattern>/servlet/Sample129</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample131</servlet-name>
+    <url-pattern>/servlet/Sample131</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample132</servlet-name>
+    <url-pattern>/servlet/Sample132</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample133</servlet-name>
+    <url-pattern>/servlet/Sample133</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample136</servlet-name>
+    <url-pattern>/servlet/Sample136</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample146</servlet-name>
+    <url-pattern>/servlet/Sample146</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample150</servlet-name>
+    <url-pattern>/servlet/Sample150</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample151</servlet-name>
+    <url-pattern>/servlet/Sample151</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sample152</servlet-name>
+    <url-pattern>/servlet/Sample152</url-pattern>
+  </servlet-mapping>
+
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+
+
+
+
+</web-app>
+
+
+
+
+
+
+
